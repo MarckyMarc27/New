@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Facebook - Unity3d Integration Readme</title>
+</head>
+<body>
+<h1>Facebook - Unity3d Kit:</h1>
+<p>Thank you for purchasing this package. If you need further support please contact info@polyload.com. <br />
+Feel free to add polyload.com to your credits if you were happy with this product. :)<br />
+Make sure your webhost has <strong>PHP5 enabled and that CURL is installed</strong>. Both should be default on most webhosts.<br />
+You can preview the resulting Facebook App here: <a href="http://apps.facebook.com/unity_example/">http://apps.facebook.com/unity_example/</a></p>
+<p>(Make sure your Facebook is not in secure surfing mode, because the example App doesn't have HTTPS)</p>
+<h1>Create a Facebook App:</h1>
+<p>Go to https://developers.facebook.com/apps and join the Facebook Developers. Create a new App and activate "App on Facebook" & "Website with Facebook Login" 
+after editing it. Enter your App's name in the "namespace" field and fill out all empty gaps like on the screenshot on the bottom.
+Safe the "App ID", "App Secret" and "Canvas Page" - you will have to integrate them later into your files.</p>
+<p>Here is an example how the basic settings of your App should look like:
+</p>
+<p><img src="gfx/settings.jpg"></img></p>
+
+<br />
+<h1>Files:</h1>
+<br />
+<p><strong>File "facebook_unity3d.unitypackage" :</strong></p>
+<p>With this unitypackage you can build and extend the example project (FacebookExample02.unity3d). You have to replace the specific "// TODO"s in WebCommunication.js (find it in the unityPackage) with your own URL and data.</p>
+
+
+<br />
+<p><strong>Folder "unityfacebook" :</strong></p>
+<p>Upload this folder to your webspace for initial testing. Your "Canvas Url" has to point to this folder later like this: "www.yourpage.com/unityfacebook/"<br />
+Replace the unityfacebook/FacebookExample02.unity3d with the one you built (otherwise the "Publish to Wall" won't work since you didn't edit WebCommunication.js).</p>
+
+<p><strong>File "unityfacebook/FacebookExample02.unity3d" :</strong></p>
+<p>This is the unity webplayer game you have to build yourself with the facebook_unity3d.unitypackage.</p>
+
+<p><strong>File "unityfacebook/inc.php" :</strong></p>
+<p>Open this file with your favorite texteditor and replace the values in the lines ending with "// TODO". You get all these values from your facebook application application settings. Keep high attention on the slashes in the end of the URL.</p>
+
+
+<p><strong>File "unityfacebook/publishtowall.php" :</strong></p>
+<p>Open this file with your favorite texteditor and replace the values in the lines ending with "// TODO". You get all these values from your facebook application application settings.</p>
+
+
+<p><strong>File "unityfacebook/index.php" :</strong></p>
+<p>This file contains the stuff you would normally find in the FacebookExample02.html built by unity plus a few javascript functions for communication (line 36-54).</p>
+
+<p><strong>File "unityfacebook/xd_receiver.htm" :</strong></p>
+<p>Facebook needs this file to be there. Don't remove it.</p>
+
+<p><strong>Files "unityfacebook/header.php and footer.php" :</strong></p>
+<p>Belong to index.php. Also contain unity webplayer generated stuff.</p>
+
+
+<br />
+<p><strong>Folder "unityfacebook/facebook" :</strong></p>
+<p>This folder contains the Facebook Graph Api stuff. Don't remove it.</p>
+<br />
+<p>Have a lot of fun :)</p>
+<p>Don't forget to follow me on Twitter: <a href="http://www.twitter.com/vidiludi">@vidiludi</a></p>
+</body>
+</html>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{D68856DF-C2F0-6CAB-E3BC-F391E7026064}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\Examples\Scripts\LogView.cs" />
+     <Compile Include="Assets\Examples\Scripts\MenuBase.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\AppEvents.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\AppInvites.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\AppLinks.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\AppRequests.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\DialogShare.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\GameGroups.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\GraphRequest.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\MainMenu.cs" />
+     <Compile Include="Assets\Examples\Scripts\SubMenus\Pay.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AppEventName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AppEventParameterName.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CallbackManager.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\ICanvasFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Canvas\JsBridge.cs" />
+     <Compile Include="Assets\Facebook\Scripts\ComponentFactory.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Constants.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookBase.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookSdkVersion.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FacebookSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\MethodArguments.cs" />
+     <Compile Include="Assets\Facebook\Scripts\MethodCall.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\FBJavaClass.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\Android\IAndroidJavaClass.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookCallbackHandler.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IMobileFacebookImplementation.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\IOS\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Mobile\MobileFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Facebook\Scripts\OGActionType.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookGameObject.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\EditorFacebookMockDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\EmptyMockDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\PlatformEditor\MockDialogs\MockLoginDialog.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppInviteResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppLinkResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\AppReqeustResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GraphResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GroupCreateResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\GroupJoinResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppInviteResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppLinkResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IAppRequestResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGraphResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGroupCreateResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IGroupJoinResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IInternalResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ILoginResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IPayResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\IShareResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\LoginResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\PayResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ResultBase.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Results\ShareResult.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\AsyncRequestString.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\FacebookLogger.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\HttpMethod.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\IFacebookLogger.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\MiniJson.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Utils\Utilities.cs" />
+     <Compile Include="Assets\Scripts\BallScript.cs" />
+     <Compile Include="Assets\Scripts\HealthManager.cs" />
+     <Compile Include="Assets\Scripts\HurtPlayer.cs" />
+     <Compile Include="Assets\Scripts\LevelSelectScript.cs" />
+     <Compile Include="Assets\Scripts\LifeManager.cs" />
+     <Compile Include="Assets\Scripts\LockLevel.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenu2.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\RealTimeCountdown.cs" />
+     <Compile Include="Assets\Scripts\Rocket.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\Scripts\TimeManager.cs" />
+     <Compile Include="Assets\_Assets\LeadBoardManager\Demo\HighscoreScript.cs" />
+     <Compile Include="Assets\_Assets\LeadBoardManager\Demo\UIScript.cs" />
+     <Compile Include="Assets\_Assets\LeadBoardManager\Prefab\leadboard.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Examples\Scripts\04 - RadioButton\Example04.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Examples\Scripts\05 - Sliders\Example05.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\Anim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ButtonInteractableControl.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\CheckBoxToggler.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\CheckboxConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\CheckboxFillerControl.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ColorCopier.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\DialogBoxConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\EZAnim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\FPSCounter.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\InputFieldConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\MaterialGlobals.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\MaterialUIScaler.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\MaterialUIVersion.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\MenuArrowAnim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\NavDrawerConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\RadioConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\RectTransformSnap.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\RippleAnim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\RippleConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\RippleControl.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ScreenConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ScreenManager.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SelectionBoxConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SelectionBoxSubscriber.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SelectionListItemConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ShadowAnim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ShadowConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ShadowGen.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ShadowSnap.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SliderConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SnapButtonToText.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SpriteSwapper.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\SwitchConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\TextInputLine.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ToastAnim.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ToastControl.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\Toaster.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ToggleConfig.cs" />
+     <Compile Include="Assets\_Assets\MaterialUI\Scripts\ToggleTextChanger.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\2D\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\2D\Scripts\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\EventSystemChecker.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\ForcedReset.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\_Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <None Include="Assets\UnityFacebookApp\readme.txt" />
+     <None Include="Assets\_Assets\ProgressBar\Shaders\AlphaProgress.shader" />
+     <None Include="Assets\_Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
+     <None Include="Assets\_Assets\GameBarCreationSystem\Shaders\UnlitAlphaWithFade.shader" />
+     <None Include="Assets\_Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+     <None Include="Assets\_Assets\MaterialUI\Fonts\NOTICE.txt" />
+     <None Include="Assets\_Assets\Game Jam Template\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\_Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\_Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
+     <None Include="Assets\_Assets\K2 Games\Icon Based Health Bars\Change Log.txt" />
+     <None Include="Assets\_Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_Assets\GameBarCreationSystem\readme.txt" />
+     <None Include="Assets\Facebook\Scripts\Canvas\Resources\JSSDKBindings.txt" />
+     <None Include="Assets\_Assets\K2 Games\Icon Based Health Bars\Documentation.txt" />
+     <None Include="Assets\_Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\_Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\_Assets\Game Jam Template\GameJamTemplateReadMe.txt" />
+     <None Include="Assets\_Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="Tizen">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>/Users/marccournoyer/Shooting Balls 2016  (v 2.1)/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{03694A8F-3608-E19A-DD30-C3F47AF98B12}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
