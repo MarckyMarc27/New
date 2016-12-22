@@ -1,0 +1,263 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-optimize
+-r:'/Applications/Unity/PlaybackEngines/WebGLSupport/Managed/UnityEngine.dll'
+-r:'Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Common.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Stores.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll'
+-r:'Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll'
+-r:'Assets/Plugins/UnityPurchasing/winrt/winrt.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_5_0
+-define:UNITY_5_5
+-define:UNITY_5
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_GENERICS
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:UNITY_WEBGL
+-define:UNITY_WEBGL_API
+-define:UNITY_DISABLE_WEB_VERIFICATION
+-define:UNITY_GFX_USE_PLATFORM_VSYNC
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_VR
+-define:ENABLE_IL2CPP
+'Assets/Examples/Scripts/ConsoleBase.cs'
+'Assets/Examples/Scripts/LogView.cs'
+'Assets/Examples/Scripts/MenuBase.cs'
+'Assets/Examples/Scripts/SubMenus/AppEvents.cs'
+'Assets/Examples/Scripts/SubMenus/AppInvites.cs'
+'Assets/Examples/Scripts/SubMenus/AppLinks.cs'
+'Assets/Examples/Scripts/SubMenus/AppRequests.cs'
+'Assets/Examples/Scripts/SubMenus/DialogShare.cs'
+'Assets/Examples/Scripts/SubMenus/GameGroups.cs'
+'Assets/Examples/Scripts/SubMenus/GraphRequest.cs'
+'Assets/Examples/Scripts/SubMenus/MainMenu.cs'
+'Assets/Examples/Scripts/SubMenus/Pay.cs'
+'Assets/Facebook/Scripts/AccessToken.cs'
+'Assets/Facebook/Scripts/AppEventName.cs'
+'Assets/Facebook/Scripts/AppEventParameterName.cs'
+'Assets/Facebook/Scripts/CallbackManager.cs'
+'Assets/Facebook/Scripts/Canvas/CanvasFacebook.cs'
+'Assets/Facebook/Scripts/Canvas/CanvasFacebookGameObject.cs'
+'Assets/Facebook/Scripts/Canvas/CanvasFacebookLoader.cs'
+'Assets/Facebook/Scripts/Canvas/ICanvasFacebook.cs'
+'Assets/Facebook/Scripts/Canvas/ICanvasFacebookCallbackHandler.cs'
+'Assets/Facebook/Scripts/Canvas/ICanvasFacebookImplementation.cs'
+'Assets/Facebook/Scripts/Canvas/JsBridge.cs'
+'Assets/Facebook/Scripts/ComponentFactory.cs'
+'Assets/Facebook/Scripts/Constants.cs'
+'Assets/Facebook/Scripts/FB.cs'
+'Assets/Facebook/Scripts/FacebookBase.cs'
+'Assets/Facebook/Scripts/FacebookGameObject.cs'
+'Assets/Facebook/Scripts/FacebookSdkVersion.cs'
+'Assets/Facebook/Scripts/FacebookSettings.cs'
+'Assets/Facebook/Scripts/IFacebook.cs'
+'Assets/Facebook/Scripts/IFacebookCallbackHandler.cs'
+'Assets/Facebook/Scripts/IFacebookImplementation.cs'
+'Assets/Facebook/Scripts/MethodArguments.cs'
+'Assets/Facebook/Scripts/MethodCall.cs'
+'Assets/Facebook/Scripts/Mobile/Android/AndroidFacebook.cs'
+'Assets/Facebook/Scripts/Mobile/Android/AndroidFacebookGameObject.cs'
+'Assets/Facebook/Scripts/Mobile/Android/AndroidFacebookLoader.cs'
+'Assets/Facebook/Scripts/Mobile/Android/FBJavaClass.cs'
+'Assets/Facebook/Scripts/Mobile/Android/IAndroidJavaClass.cs'
+'Assets/Facebook/Scripts/Mobile/IMobileFacebook.cs'
+'Assets/Facebook/Scripts/Mobile/IMobileFacebookCallbackHandler.cs'
+'Assets/Facebook/Scripts/Mobile/IMobileFacebookImplementation.cs'
+'Assets/Facebook/Scripts/Mobile/IOS/IOSFacebook.cs'
+'Assets/Facebook/Scripts/Mobile/IOS/IOSFacebookGameObject.cs'
+'Assets/Facebook/Scripts/Mobile/IOS/IOSFacebookLoader.cs'
+'Assets/Facebook/Scripts/Mobile/MobileFacebook.cs'
+'Assets/Facebook/Scripts/Mobile/MobileFacebookGameObject.cs'
+'Assets/Facebook/Scripts/NativeDialogModes.cs'
+'Assets/Facebook/Scripts/OGActionType.cs'
+'Assets/Facebook/Scripts/PlatformEditor/EditorFacebook.cs'
+'Assets/Facebook/Scripts/PlatformEditor/EditorFacebookGameObject.cs'
+'Assets/Facebook/Scripts/PlatformEditor/EditorFacebookLoader.cs'
+'Assets/Facebook/Scripts/PlatformEditor/EditorFacebookMockDialog.cs'
+'Assets/Facebook/Scripts/PlatformEditor/MockDialogs/EmptyMockDialog.cs'
+'Assets/Facebook/Scripts/PlatformEditor/MockDialogs/MockLoginDialog.cs'
+'Assets/Facebook/Scripts/Properties/AssemblyInfo.cs'
+'Assets/Facebook/Scripts/Results/AppInviteResult.cs'
+'Assets/Facebook/Scripts/Results/AppLinkResult.cs'
+'Assets/Facebook/Scripts/Results/AppReqeustResult.cs'
+'Assets/Facebook/Scripts/Results/GraphResult.cs'
+'Assets/Facebook/Scripts/Results/GroupCreateResult.cs'
+'Assets/Facebook/Scripts/Results/GroupJoinResult.cs'
+'Assets/Facebook/Scripts/Results/IAppInviteResult.cs'
+'Assets/Facebook/Scripts/Results/IAppLinkResult.cs'
+'Assets/Facebook/Scripts/Results/IAppRequestResult.cs'
+'Assets/Facebook/Scripts/Results/IGraphResult.cs'
+'Assets/Facebook/Scripts/Results/IGroupCreateResult.cs'
+'Assets/Facebook/Scripts/Results/IGroupJoinResult.cs'
+'Assets/Facebook/Scripts/Results/IInternalResult.cs'
+'Assets/Facebook/Scripts/Results/ILoginResult.cs'
+'Assets/Facebook/Scripts/Results/IPayResult.cs'
+'Assets/Facebook/Scripts/Results/IResult.cs'
+'Assets/Facebook/Scripts/Results/IShareResult.cs'
+'Assets/Facebook/Scripts/Results/LoginResult.cs'
+'Assets/Facebook/Scripts/Results/PayResult.cs'
+'Assets/Facebook/Scripts/Results/ResultBase.cs'
+'Assets/Facebook/Scripts/Results/ShareResult.cs'
+'Assets/Facebook/Scripts/Utils/AsyncRequestString.cs'
+'Assets/Facebook/Scripts/Utils/FacebookLogger.cs'
+'Assets/Facebook/Scripts/Utils/HttpMethod.cs'
+'Assets/Facebook/Scripts/Utils/IFacebookLogger.cs'
+'Assets/Facebook/Scripts/Utils/MiniJson.cs'
+'Assets/Facebook/Scripts/Utils/Utilities.cs'
+'Assets/Scripts/BallScript.cs'
+'Assets/Scripts/HealthManager.cs'
+'Assets/Scripts/HurtPlayer.cs'
+'Assets/Scripts/LevelSelectScript.cs'
+'Assets/Scripts/LifeManager.cs'
+'Assets/Scripts/LockLevel.cs'
+'Assets/Scripts/MainMenu.cs'
+'Assets/Scripts/MainMenu2.cs'
+'Assets/Scripts/PauseMenu.cs'
+'Assets/Scripts/PlayerController.cs'
+'Assets/Scripts/RealTimeCountdown.cs'
+'Assets/Scripts/Rocket.cs'
+'Assets/Scripts/ScoreManager.cs'
+'Assets/Scripts/TimeManager.cs'
+'Assets/_Assets/LeadBoardManager/Demo/HighscoreScript.cs'
+'Assets/_Assets/LeadBoardManager/Demo/UIScript.cs'
+'Assets/_Assets/LeadBoardManager/Prefab/leadboard.cs'
+'Assets/_Assets/MaterialUI/Examples/Scripts/04 - RadioButton/Example04.cs'
+'Assets/_Assets/MaterialUI/Examples/Scripts/05 - Sliders/Example05.cs'
+'Assets/_Assets/MaterialUI/Scripts/Anim.cs'
+'Assets/_Assets/MaterialUI/Scripts/ButtonInteractableControl.cs'
+'Assets/_Assets/MaterialUI/Scripts/CheckBoxToggler.cs'
+'Assets/_Assets/MaterialUI/Scripts/CheckboxConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/CheckboxFillerControl.cs'
+'Assets/_Assets/MaterialUI/Scripts/ColorCopier.cs'
+'Assets/_Assets/MaterialUI/Scripts/DialogBoxConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/EZAnim.cs'
+'Assets/_Assets/MaterialUI/Scripts/FPSCounter.cs'
+'Assets/_Assets/MaterialUI/Scripts/HSBColor.cs'
+'Assets/_Assets/MaterialUI/Scripts/InputFieldConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/MaterialGlobals.cs'
+'Assets/_Assets/MaterialUI/Scripts/MaterialUIScaler.cs'
+'Assets/_Assets/MaterialUI/Scripts/MaterialUIVersion.cs'
+'Assets/_Assets/MaterialUI/Scripts/MenuArrowAnim.cs'
+'Assets/_Assets/MaterialUI/Scripts/NavDrawerConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/RadioConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/RectTransformSnap.cs'
+'Assets/_Assets/MaterialUI/Scripts/RippleAnim.cs'
+'Assets/_Assets/MaterialUI/Scripts/RippleConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/RippleControl.cs'
+'Assets/_Assets/MaterialUI/Scripts/ScreenConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/ScreenManager.cs'
+'Assets/_Assets/MaterialUI/Scripts/SelectionBoxConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/SelectionBoxSubscriber.cs'
+'Assets/_Assets/MaterialUI/Scripts/SelectionListItemConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/ShadowAnim.cs'
+'Assets/_Assets/MaterialUI/Scripts/ShadowConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/ShadowGen.cs'
+'Assets/_Assets/MaterialUI/Scripts/ShadowSnap.cs'
+'Assets/_Assets/MaterialUI/Scripts/SliderConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/SnapButtonToText.cs'
+'Assets/_Assets/MaterialUI/Scripts/SpriteSwapper.cs'
+'Assets/_Assets/MaterialUI/Scripts/SwitchConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/TextInputLine.cs'
+'Assets/_Assets/MaterialUI/Scripts/ToastAnim.cs'
+'Assets/_Assets/MaterialUI/Scripts/ToastControl.cs'
+'Assets/_Assets/MaterialUI/Scripts/Toaster.cs'
+'Assets/_Assets/MaterialUI/Scripts/ToggleConfig.cs'
+'Assets/_Assets/MaterialUI/Scripts/ToggleTextChanger.cs'
+'Assets/_Assets/Standard Assets/2D/Scripts/Camera2DFollow.cs'
+'Assets/_Assets/Standard Assets/2D/Scripts/CameraFollow.cs'
+'Assets/_Assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs'
+'Assets/_Assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs'
+'Assets/_Assets/Standard Assets/2D/Scripts/Restarter.cs'
+'Assets/_Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs'
+'Assets/_Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs'
+'Assets/_Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs'
+'Assets/_Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs'
+'Assets/_Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs'
+'Assets/_Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs'
+'Assets/_Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs'
+'Assets/_Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs'
+'Assets/_Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs'
+'Assets/_Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs'
+'Assets/_Assets/Standard Assets/Utility/ActivateTrigger.cs'
+'Assets/_Assets/Standard Assets/Utility/AlphaButtonClickMask.cs'
+'Assets/_Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs'
+'Assets/_Assets/Standard Assets/Utility/AutoMoveAndRotate.cs'
+'Assets/_Assets/Standard Assets/Utility/CameraRefocus.cs'
+'Assets/_Assets/Standard Assets/Utility/CurveControlledBob.cs'
+'Assets/_Assets/Standard Assets/Utility/DragRigidbody.cs'
+'Assets/_Assets/Standard Assets/Utility/DynamicShadowSettings.cs'
+'Assets/_Assets/Standard Assets/Utility/EventSystemChecker.cs'
+'Assets/_Assets/Standard Assets/Utility/FOVKick.cs'
+'Assets/_Assets/Standard Assets/Utility/FPSCounter.cs'
+'Assets/_Assets/Standard Assets/Utility/FollowTarget.cs'
+'Assets/_Assets/Standard Assets/Utility/ForcedReset.cs'
+'Assets/_Assets/Standard Assets/Utility/LerpControlledBob.cs'
+'Assets/_Assets/Standard Assets/Utility/ObjectResetter.cs'
+'Assets/_Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs'
+'Assets/_Assets/Standard Assets/Utility/PlatformSpecificContent.cs'
+'Assets/_Assets/Standard Assets/Utility/SimpleActivatorMenu.cs'
+'Assets/_Assets/Standard Assets/Utility/SimpleMouseRotator.cs'
+'Assets/_Assets/Standard Assets/Utility/SmoothFollow.cs'
+'Assets/_Assets/Standard Assets/Utility/TimedObjectActivator.cs'
+'Assets/_Assets/Standard Assets/Utility/TimedObjectDestructor.cs'
+'Assets/_Assets/Standard Assets/Utility/WaypointCircuit.cs'
+'Assets/_Assets/Standard Assets/Utility/WaypointProgressTracker.cs'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity

@@ -1,0 +1,33 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="MainMenu">
+			<method name="QuitGame"/>
+			<method name="LevelSelect"/>
+			<method name="NewGame"/>
+		</type>
+		<type fullname="MainMenu2">
+			<method name="LevelSelect"/>
+		</type>
+		<type fullname="LevelSelectScript">
+			<method name="Selectlevel"/>
+			<method name="Selectlevel"/>
+			<method name="Selectlevel"/>
+			<method name="Selectlevel"/>
+			<method name="Selectlevel"/>
+		</type>
+		<type fullname="PauseMenu">
+			<method name="QuitToMainMenu"/>
+			<method name="ResumeGame"/>
+			<method name="LevelSelect"/>
+			<method name="QuitToMainMenu"/>
+			<method name="LevelSelect"/>
+			<method name="ResumeGame"/>
+			<method name="LevelSelect"/>
+			<method name="QuitToMainMenu"/>
+			<method name="ResumeGame"/>
+			<method name="ResumeGame"/>
+			<method name="QuitToMainMenu"/>
+			<method name="LevelSelect"/>
+		</type>
+	</assembly>
+</linker>
